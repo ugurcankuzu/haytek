@@ -3,6 +3,7 @@ import {
   Routes,
   Route
 } from 'react-router-dom'
+import ComponentTest from './pages/componentTest';
 import FormPage from './pages/formPage';
 
 
@@ -12,6 +13,7 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<FormPage/>}/>
+          <Route path='/test' element={<ComponentTest/>}/>
         </Routes>
       </Router>
     </>

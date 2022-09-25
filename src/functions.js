@@ -11,7 +11,6 @@ function checkInputFields(fieldsState) {
         if (field !== "") {
             continue
         } else {
-            alert("Lütfen alanların düzgünce doldurduğunuzdan emin olun");
             return false;
 
         }
